@@ -1,0 +1,9 @@
+
+
+
+
+#DAX FORMULA TO CATEGOIRES FESTIVALS
+if Date.Month([Date]) = 10 or Date.Month([Date]) = 11 then "Diwali"
+else if Date.Month([Date]) = 3 then "Holi"
+else if Date.Month([Date]) = 12 or Date.Month([Date]) = 1 then "New Year"
+else "Other"
